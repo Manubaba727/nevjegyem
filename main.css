@@ -1,0 +1,103 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.profile-card{
+  background-color: hsla(60, 100%, 50%, .4);
+}
+.name-headline {
+  color: black;
+}
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  margin:auto
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: auto;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+  color: blue;
+}
+
+li {
+  display: inline;
+}
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+body {
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+img {
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+.about {
+  text-align: justify;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 18px;
+}
+.fa-3x {
+  display: none;
+}
+li:hover .fa-2x {
+  display: none;
+}
+li:hover .fa-3x{
+  display: inline;
+}
